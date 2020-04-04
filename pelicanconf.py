@@ -37,7 +37,7 @@ HOME_HIDE_TAGS = True
 SOCIAL = (('github', 'https://github.com/rorre'),
           ('twitter', 'https://twitter.com/osuRen_'))
 
-MENUITEMS = (('About', '/pages/about-me.html')
+MENUITEMS = (('About', '/pages/about-me.html'),
              ('Archives', '/archives.html'),
              ('Categories', '/categories.html'),
              ('Tags', '/tags.html'),)
@@ -72,3 +72,4 @@ SITEMAP = {
 }
 
 STATIC_PATHS = ['images']
+CUSTOM_CSS = "css/semantic.css"
