@@ -37,7 +37,8 @@ HOME_HIDE_TAGS = True
 SOCIAL = (('github', 'https://github.com/rorre'),
           ('twitter', 'https://twitter.com/osuRen_'))
 
-MENUITEMS = (('Archives', '/archives.html'),
+MENUITEMS = (('About', '/pages/about-me.html')
+             ('Archives', '/archives.html'),
              ('Categories', '/categories.html'),
              ('Tags', '/tags.html'),)
 
