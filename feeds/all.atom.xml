@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Ren's Blog</title><link href="https://blog.rorre.xyz/" rel="alternate"></link><link href="https://blog.rorre.xyz/feeds/all.atom.xml" rel="self"></link><id>https://blog.rorre.xyz/</id><updated>2020-05-22T11:45:00+07:00</updated><subtitle>osu! Beatmap Nominator</subtitle><entry><title>Changing How Requests Works</title><link href="https://blog.rorre.xyz/posts/why-requests-site/" rel="alternate"></link><published>2020-05-22T11:45:00+07:00</published><updated>2020-05-22T11:45:00+07:00</updated><author><name>Rendy Arya Kemal</name></author><id>tag:blog.rorre.xyz,2020-05-22:/posts/why-requests-site/</id><summary type="html">&lt;p&gt;During mapping, there are just times where you want to rank your map, or even you're actually actively ranking a map right now. But in the process, we need 2 BNs to rank the map, and this is where it could get tricky and/or frustating. Requesting BNs has (and …&lt;/p&gt;</summary><content type="html">&lt;p&gt;During mapping, there are just times where you want to rank your map, or even you're actually actively ranking a map right now. But in the process, we need 2 BNs to rank the map, and this is where it could get tricky and/or frustating. Requesting BNs has (and maybe, will always be) something that could frustate mappers with multiple reasons. Whether the BNs are simply closed, or just ignores you. Now let's go down there so we can have better understanding on how the process works before we get into the website.&lt;/p&gt;
+&lt;div class="ui icon warning message"&gt;
+  &lt;i class="exclamation triangle icon"&gt;&lt;/i&gt;
+  &lt;div class="content"&gt;
+    &lt;div class="header"&gt;
+      This post is filled with opinions.
+    &lt;/div&gt;
+    &lt;p&gt;Most of the stuffs I wrote are something that I know from my experience, or from others. It is filled with quite a bit of subjectivity so bear with me.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;Problems in Requesting BNs&lt;/h2&gt;
+&lt;p&gt;Okay, let's say you are done with your map, gathered mods, and you want to rank it. You will now need to get 2 BNs for it. It sounds just fine by just looking at the paper, but in reality, you will meet a lot of things that blocks your way. Here's some common problems:&lt;/p&gt;
+&lt;h3&gt;1. Too many closed BNs.&lt;/h3&gt;
+&lt;p&gt;Alright, let's say you're in the BN listing page, either on &lt;a href="https://osu.ppy.sh/groups/28"&gt;osu!'s group listing&lt;/a&gt; or in &lt;a href="https://bn.mappersguild.com/"&gt;the BN site&lt;/a&gt;, you click on every single bn, and you see nearly everyone is closed. While totally have the rights to close for reqs, sometimes you just keep wandering how come so many BNs are closed, heck, some of them are even closed for more than a month! Especially if the BNs that opens seems to be not fitting based on their rules, this is just frustating. What the hell are they doing?&lt;/p&gt;
+&lt;h3&gt;2. You keep getting ignored.&lt;/h3&gt;
+&lt;p&gt;Yeah, getting ignored &lt;strong&gt;sucks&lt;/strong&gt;. You never know if the BN actually ever checked your map or not, let alone downloading it. But at the same time, they could be getting lots of PMs. I must admit I did ignore lots of people when they requested me. I mean...&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;img src="https://d.rorre.xyz/IcYZAe/chrome_IcUaCEtFN2.png"&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;Obviously I didn't do my best and actually reply to them, and the messages are now 4-5 months old. But it is still frustating how BNs can just ignore you and all. I totally get it.&lt;/p&gt;
+&lt;h3&gt;3. Getting rejected for no reason.&lt;/h3&gt;
+&lt;p&gt;You finally get to contact a BN! Good job on that, whether its on queue or by PM. But now there's another problem coming, you either get accepted, or rejected. If you get rejected, sometimes they don't really have any particular reason, they just put in "not interested" or something along the line of it. This obviously will leave you in a completely confused state, as you do not know what is the problem in it. And if you ask multiple BNs and they all answer the same, you're just getting even more confused as to what is going on, why do you keep getting rejected.&lt;/p&gt;
+&lt;h3&gt;4. You don't have the balls to PM a BN.&lt;/h3&gt;
+&lt;p&gt;Yeah, this happens to most of us. There's no need of an explanation for this.&lt;/p&gt;
+&lt;h2&gt;The Requests Site&lt;/h2&gt;
+&lt;p&gt;&lt;center&gt;&lt;a href="https://bn.rorre.xyz/"&gt;Link to the site itself.&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;Now that some of the big issues are in there, let's look at the site itself, what's the goal, and what's the disadvantages of it.&lt;/p&gt;
+&lt;h3&gt;Goals and Mechanics&lt;/h3&gt;
+&lt;p&gt;The goal of the site is to reduce the frustation of requesting the BNs itself. Yes, I know I am the only one using this method, but that doesn't mean other's cant using other method that has the same goal. How do I reduce it? Here's how:&lt;/p&gt;
+&lt;p&gt;In the site, you can directly see how many requests do I get, the maps, and their respective statuses, whether it's pending or accepted (rejected will be thrown away from public and only the requester can see). This is similar to how BN Trello works, except all the requests and inputs are done by the requester itself, and they can cancel the request anytime they want (just incase if they already have 2bns or if they just want to mess around). The site will also features all past accepted requests, showing how much requests have I modded.&lt;/p&gt;
+&lt;p&gt;Not only that, if you join &lt;a href="https://discordapp.com/invite/rXhjWVQ"&gt;my Discord Server&lt;/a&gt;, you will see all the feed of requests getting in, updates to it, etc &lt;strong&gt;in real time&lt;/strong&gt;. This gives people enough info as to what the hell have I been doing, whether im just slacking off all this time or not.&lt;/p&gt;
+&lt;p&gt;And about rejected requests, the requester will &lt;strong&gt;always&lt;/strong&gt; get a reason as to why is it rejected, whether it's caused by personal preference (aka "I don't like how you structure the map" or "I don't like movement mapping") or if it's caused by the map having actual fundamental issues. The requester should now be able to understand as to why their request is rejected and maybe, improve their beatmap before going on to ask BNs again (or they can just ask other BNs because everyone has different opinion on something).&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;img src="https://d.rorre.xyz/2LGoYK/DUe9J5FGRC.png"&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;h3&gt;Disadvantages&lt;/h3&gt;
+&lt;p&gt;This thing, of course, is not perfect, there are disadvantages for both requester and the BN (in this case, me).&lt;/p&gt;
+&lt;h4&gt;For requester&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;It may take more time for the BN to respond&lt;/strong&gt;. Writing feedback to them sometimes is hard, you need to pick out words that is easily understandable for the requester to understand and sometimes there are just too many requests to scroll through.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The reasoning may not satisfy you&lt;/strong&gt;. Yes, I am fully aware of this happening and people shittalking over the reasoning of rejection, especially when it comes to personal taste. However I cannot help but see this happening.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;For the BN&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Giving feedback is hard&lt;/strong&gt;. Especially if the map is fundamentally flawed in the first place, sometimes you don't know where to start with and keeps staring at the feedback textbox for quite some time just to think about what will you write so that they understand.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;People could mald on your reasoning&lt;/strong&gt;. Yes, we all know this will happen sometime later, and someone will bring this up to twitter/reddit/discord server/whatever and may cause some drama to happen.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I am not listing things like server cost etc because I feel like its not a huge deal.&lt;/p&gt;
+&lt;h2&gt;What now?&lt;/h2&gt;
+&lt;p&gt;For now, the requests site has been up and running for 2 weeks with only one batch done, and I still need to review some maps, I got 36 reqs and have accepted 11 reqs, 12 pending, and 13 rejected. I will try to use the site for the next couple batch and see how it's going. Whether it's going for the better (for me and the requesters) or it's actually worsen.&lt;/p&gt;
+&lt;p&gt;Any thoughts are absolutely welcome! I'm very glad if you have some critics and suggestions to improve this thing.&lt;/p&gt;</content><category term="osu!"></category><category term="osu"></category><category term="bn"></category></entry></feed>

@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://blog.rorre.xyz/theme/stylesheet/style.min.css">
+
+
+  <link rel="stylesheet" type="text/css" href="https://blog.rorre.xyz/theme/pygments/monokai.min.css">
+  <link rel="stylesheet" type="text/css" href="https://blog.rorre.xyz/theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="https://blog.rorre.xyz/theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="https://blog.rorre.xyz/theme/font-awesome/css/solid.css">
+
+    <link href="https://blog.rorre.xyz/static/css/semantic.css" rel="stylesheet">
+
+    <link href="https://blog.rorre.xyz/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Ren's Blog Atom">
+
+
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#333333">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#333333">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Microsoft EDGE -->
+    <meta name="msapplication-TileColor" content="#333333">
+
+<meta name="author" content="Rendy Arya Kemal" />
+<meta name="description" content="During mapping, there are just times where you want to rank your map, or even you&#39;re actually actively ranking a map right now. But in the process, we need 2 BNs to rank the map, and this is where it could get tricky and/or frustating. Requesting BNs has (and …" />
+<meta name="keywords" content="osu, bn">
+
+
+<meta property="og:site_name" content="Ren's Blog"/>
+<meta property="og:title" content="Changing How Requests Works"/>
+<meta property="og:description" content="During mapping, there are just times where you want to rank your map, or even you&#39;re actually actively ranking a map right now. But in the process, we need 2 BNs to rank the map, and this is where it could get tricky and/or frustating. Requesting BNs has (and …"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="https://blog.rorre.xyz/posts/why-requests-site/"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2020-05-22 11:45:00+07:00"/>
+<meta property="article:modified_time" content="2020-05-22 11:45:00+07:00"/>
+<meta property="article:author" content="https://blog.rorre.xyz/author/rendy-arya-kemal.html">
+<meta property="article:section" content="osu!"/>
+<meta property="article:tag" content="osu"/>
+<meta property="article:tag" content="bn"/>
+<meta property="og:image" content="https://a.ppy.sh/3378391">
+
+  <title>Ren's Blog &ndash; Changing How Requests Works</title>
+
+</head>
+<body>
+  <aside>
+    <div>
+      <a href="https://blog.rorre.xyz">
+        <img src="https://a.ppy.sh/3378391" alt="Rendy Arya Kemal" title="Rendy Arya Kemal">
+      </a>
+      <h1><a href="https://blog.rorre.xyz">Rendy Arya Kemal</a></h1>
+
+<p>osu! Beatmap Nominator</p>
+      <ul class="social">
+          <li>
+            <a  class="sc-github" href="https://github.com/rorre" target="_blank">
+            <i class="fab fa-github">
+            </i>
+          </a></li>
+          <li>
+            <a  class="sc-twitter" href="https://twitter.com/osuRen_" target="_blank">
+            <i class="fab fa-twitter">
+            </i>
+          </a></li>
+      </ul>
+    </div>
+
+
+  </aside>
+  <main>
+
+    <nav>
+      <a href="https://blog.rorre.xyz">Home</a>
+
+      <a href="/archives.html">Archives</a>
+      <a href="/categories.html">Categories</a>
+      <a href="/tags.html">Tags</a>
+
+      <a href="https://blog.rorre.xyz/feeds/all.atom.xml">Atom</a>
+
+    </nav>
+
+<article class="single">
+  <header>
+      
+    <h1 id="why-requests-site">Changing How Requests Works</h1>
+    <p>
+      Posted on May 22, 2020 in <a href="https://blog.rorre.xyz/category/osu.html">osu!</a>
+
+        &#8226; 5 min read
+    </p>
+  </header>
+
+
+  <div>
+    <p>During mapping, there are just times where you want to rank your map, or even you're actually actively ranking a map right now. But in the process, we need 2 BNs to rank the map, and this is where it could get tricky and/or frustating. Requesting BNs has (and maybe, will always be) something that could frustate mappers with multiple reasons. Whether the BNs are simply closed, or just ignores you. Now let's go down there so we can have better understanding on how the process works before we get into the website.</p>
+<div class="ui icon warning message">
+  <i class="exclamation triangle icon"></i>
+  <div class="content">
+    <div class="header">
+      This post is filled with opinions.
+    </div>
+    <p>Most of the stuffs I wrote are something that I know from my experience, or from others. It is filled with quite a bit of subjectivity so bear with me.</p>
+  </div>
+</div>
+
+<h2>Problems in Requesting BNs</h2>
+<p>Okay, let's say you are done with your map, gathered mods, and you want to rank it. You will now need to get 2 BNs for it. It sounds just fine by just looking at the paper, but in reality, you will meet a lot of things that blocks your way. Here's some common problems:</p>
+<h3>1. Too many closed BNs.</h3>
+<p>Alright, let's say you're in the BN listing page, either on <a href="https://osu.ppy.sh/groups/28">osu!'s group listing</a> or in <a href="https://bn.mappersguild.com/">the BN site</a>, you click on every single bn, and you see nearly everyone is closed. While totally have the rights to close for reqs, sometimes you just keep wandering how come so many BNs are closed, heck, some of them are even closed for more than a month! Especially if the BNs that opens seems to be not fitting based on their rules, this is just frustating. What the hell are they doing?</p>
+<h3>2. You keep getting ignored.</h3>
+<p>Yeah, getting ignored <strong>sucks</strong>. You never know if the BN actually ever checked your map or not, let alone downloading it. But at the same time, they could be getting lots of PMs. I must admit I did ignore lots of people when they requested me. I mean...</p>
+<p><center><img src="https://d.rorre.xyz/IcYZAe/chrome_IcUaCEtFN2.png"></center></p>
+<p>Obviously I didn't do my best and actually reply to them, and the messages are now 4-5 months old. But it is still frustating how BNs can just ignore you and all. I totally get it.</p>
+<h3>3. Getting rejected for no reason.</h3>
+<p>You finally get to contact a BN! Good job on that, whether its on queue or by PM. But now there's another problem coming, you either get accepted, or rejected. If you get rejected, sometimes they don't really have any particular reason, they just put in "not interested" or something along the line of it. This obviously will leave you in a completely confused state, as you do not know what is the problem in it. And if you ask multiple BNs and they all answer the same, you're just getting even more confused as to what is going on, why do you keep getting rejected.</p>
+<h3>4. You don't have the balls to PM a BN.</h3>
+<p>Yeah, this happens to most of us. There's no need of an explanation for this.</p>
+<h2>The Requests Site</h2>
+<p><center><a href="https://bn.rorre.xyz/">Link to the site itself.</a></center></p>
+<p>Now that some of the big issues are in there, let's look at the site itself, what's the goal, and what's the disadvantages of it.</p>
+<h3>Goals and Mechanics</h3>
+<p>The goal of the site is to reduce the frustation of requesting the BNs itself. Yes, I know I am the only one using this method, but that doesn't mean other's cant using other method that has the same goal. How do I reduce it? Here's how:</p>
+<p>In the site, you can directly see how many requests do I get, the maps, and their respective statuses, whether it's pending or accepted (rejected will be thrown away from public and only the requester can see). This is similar to how BN Trello works, except all the requests and inputs are done by the requester itself, and they can cancel the request anytime they want (just incase if they already have 2bns or if they just want to mess around). The site will also features all past accepted requests, showing how much requests have I modded.</p>
+<p>Not only that, if you join <a href="https://discordapp.com/invite/rXhjWVQ">my Discord Server</a>, you will see all the feed of requests getting in, updates to it, etc <strong>in real time</strong>. This gives people enough info as to what the hell have I been doing, whether im just slacking off all this time or not.</p>
+<p>And about rejected requests, the requester will <strong>always</strong> get a reason as to why is it rejected, whether it's caused by personal preference (aka "I don't like how you structure the map" or "I don't like movement mapping") or if it's caused by the map having actual fundamental issues. The requester should now be able to understand as to why their request is rejected and maybe, improve their beatmap before going on to ask BNs again (or they can just ask other BNs because everyone has different opinion on something).</p>
+<p><center><img src="https://d.rorre.xyz/2LGoYK/DUe9J5FGRC.png"></center></p>
+<h3>Disadvantages</h3>
+<p>This thing, of course, is not perfect, there are disadvantages for both requester and the BN (in this case, me).</p>
+<h4>For requester</h4>
+<ul>
+<li><strong>It may take more time for the BN to respond</strong>. Writing feedback to them sometimes is hard, you need to pick out words that is easily understandable for the requester to understand and sometimes there are just too many requests to scroll through.</li>
+<li><strong>The reasoning may not satisfy you</strong>. Yes, I am fully aware of this happening and people shittalking over the reasoning of rejection, especially when it comes to personal taste. However I cannot help but see this happening.</li>
+</ul>
+<h4>For the BN</h4>
+<ul>
+<li><strong>Giving feedback is hard</strong>. Especially if the map is fundamentally flawed in the first place, sometimes you don't know where to start with and keeps staring at the feedback textbox for quite some time just to think about what will you write so that they understand.</li>
+<li><strong>People could mald on your reasoning</strong>. Yes, we all know this will happen sometime later, and someone will bring this up to twitter/reddit/discord server/whatever and may cause some drama to happen.</li>
+</ul>
+<p>I am not listing things like server cost etc because I feel like its not a huge deal.</p>
+<h2>What now?</h2>
+<p>For now, the requests site has been up and running for 2 weeks with only one batch done, and I still need to review some maps, I got 36 reqs and have accepted 11 reqs, 12 pending, and 13 rejected. I will try to use the site for the next couple batch and see how it's going. Whether it's going for the better (for me and the requesters) or it's actually worsen.</p>
+<p>Any thoughts are absolutely welcome! I'm very glad if you have some critics and suggestions to improve this thing.</p>
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="https://blog.rorre.xyz/tag/osu.html">osu</a>
+      <a href="https://blog.rorre.xyz/tag/bn.html">bn</a>
+    </p>
+  </div>
+
+
+
+
+
+</article>
+
+    <footer>
+<p>
+  &copy;  2020 - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+</p>
+<p>Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme</p><p>
+  <a rel="license"
+     href="http://creativecommons.org/licenses/by-sa/4.0/"
+     target="_blank">
+    <img alt="Creative Commons License"
+         title="Creative Commons License"
+         style="border-width:0"
+           src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+         width="80"
+         height="15"/>
+  </a>
+</p>    </footer>
+  </main>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Ren's Blog ",
+  "url" : "https://blog.rorre.xyz",
+  "image": "https://a.ppy.sh/3378391",
+  "description": "Random thoughts over osu! and tech things."
+}
+</script>
+
+
+</body>
+</html>
