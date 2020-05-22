@@ -4,8 +4,9 @@ SITENAME = "Ren's Blog"
 SITETITLE = AUTHOR
 SITESUBTITLE = 'osu! Beatmap Nominator'
 SITEDESCRIPTION = 'Random thoughts over osu! and tech things.'
-SITELOGO = '//a.ppy.sh/3378391'
+SITELOGO = 'https://a.ppy.sh/3378391'
 FAVICON = '/images/favicon.ico'
+RELATIVE_URLS = True
 BROWSER_COLOR = '#333333'
 PYGMENTS_STYLE = 'monokai'
 
@@ -37,8 +38,7 @@ HOME_HIDE_TAGS = True
 SOCIAL = (('github', 'https://github.com/rorre'),
           ('twitter', 'https://twitter.com/osuRen_'))
 
-MENUITEMS = (('About', '/pages/about-me.html'),
-             ('Archives', '/archives.html'),
+MENUITEMS = (('Archives', '/archives.html'),
              ('Categories', '/categories.html'),
              ('Tags', '/tags.html'),)
 
@@ -71,5 +71,7 @@ SITEMAP = {
     }
 }
 
-STATIC_PATHS = ['images']
-CUSTOM_CSS = "css/semantic.css"
+STATIC_PATHS = ['static']
+CUSTOM_CSS = "static/css/semantic.css"
+ARTICLE_URL = 'posts/{slug}/'
+ARTICLE_SAVE_AS = 'posts/{slug}/index.html'
