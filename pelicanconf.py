@@ -71,7 +71,8 @@ SITEMAP = {
     }
 }
 
-STATIC_PATHS = ['static']
+STATIC_PATHS = ['static', 'extra/CNAME']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 CUSTOM_CSS = "static/css/semantic.css"
 ARTICLE_URL = 'posts/{slug}/'
 ARTICLE_SAVE_AS = 'posts/{slug}/index.html'
