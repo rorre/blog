@@ -13,7 +13,7 @@ PYGMENTS_STYLE = 'monokai'
 ROBOTS = 'index, follow'
 
 THEME = './flex'
-PATH = 'content'
+PATH = './content'
 TIMEZONE = 'Asia/Jakarta'
 
 I18N_TEMPLATES_LANG = 'en'
