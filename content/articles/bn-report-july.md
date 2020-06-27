@@ -57,7 +57,7 @@ And of course, here are the maps that I feel like they're quite cool to look at!
 <div class="ui segment">
     <img class="ui centered fluid image" src="https://assets.ppy.sh/beatmaps/1117775/covers/cover@2x.jpg?1590461435">
 </div>
-[Haruto](https://osu.ppy.sh/users/3772301), [tricolor](https://osu.ppy.sh/users/5712451) (aka tomadoi), [Agatsu](https://osu.ppy.sh/users/5579871), [smh](https://osu.ppy.sh/users/1629553), and [Ancelysia](https://osu.ppy.sh/users/7118575) brings out a banger by 100 gecs to the ranking section, with each diffs having its very own style, that makes the gameplay quite unique to play for each of their own.  
+[Haruto](https://osu.ppy.sh/users/3772301), [tricolor](https://osu.ppy.sh/users/5712451) (aka tomadoi), [Agatsu](https://osu.ppy.sh/users/5579871), [smh](https://osu.ppy.sh/users/1629553), and [Ancelysia](https://osu.ppy.sh/users/7118575) brings out a banger by 100 gecs to the ranked section, with each diffs having its very own style, that makes the gameplay quite unique to play for each of their own.  
 Added to that, we see two new names in the ranked section, with `smh` and `Ancelysia` having their first ranked difficulty in this game! I hope to see more of them in the future!
 
 <div class="ui divider"></div>
