@@ -40302,3 +40302,8 @@ body.pushable > .pusher {
 /*******************************
          Site Overrides
 *******************************/
+
+.ui.embed > video {
+    width: 100% !important;
+    height: auto !important;
+}
