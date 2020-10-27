@@ -80,7 +80,7 @@ The performance of the site makes it totally unusable, every time you press the 
 
 &lt;p&gt;Here's a video of me answering one question:&lt;/p&gt;
 &lt;div class="ui segment"&gt;
-    &lt;video width="640" height="480" controls&gt;
+    &lt;video controls&gt;
         &lt;source src="/static/post/myschool-rant/pain.mp4" type="video/mp4"&gt;
     &lt;/video&gt;
 &lt;/div&gt;
