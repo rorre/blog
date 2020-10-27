@@ -48,6 +48,7 @@ However, if you didn't notice it already, there are some extra menus. They are `
 ## Access to Page
 
 Now, you may be wondering, why is the exams page only available for Android users? What about students that don't have an Android device? From here we can guess many things, perhaps:
+
 - they have an anti-cheat system in place for the application;
 - they don't want their students to do it in PC, as it is easier to cheat by opening a new tab;
 
@@ -115,6 +116,7 @@ Here's a video of me answering one question:
 Overall, I am rather annoyed with all of the flaws, especially one specific subject often uses it. It really is a pain in the ass for me to navigate through it. There are actually many more flaws that I could mention in this post, but it will cause some sort of world destruction if I say it publicly.
 
 There are many ways to improve it, here are some:
+
 - Make use of jQuery's `onChange` to *ACTUALLY* save answers.
 - Fix the button, or even remove it once above is applied.
 - Optimize database calls.
