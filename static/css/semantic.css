@@ -40303,7 +40303,7 @@ body.pushable > .pusher {
          Site Overrides
 *******************************/
 
-.ui.embed > video {
+.ui.segment > video {
     max-width: 100% !important;
     height: auto !important;
 }
