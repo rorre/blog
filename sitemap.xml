@@ -4,92 +4,127 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>https://blog.rorre.xyz/</loc>
-<lastmod>2020-06-27T21:42:19-00:00</lastmod>
+<loc>http://localhost:8000/</loc>
+<lastmod>2020-10-27T17:04:04-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>https://blog.rorre.xyz/tags.html</loc>
-<lastmod>2020-06-27T21:42:19-00:00</lastmod>
+<loc>http://localhost:8000/tags.html</loc>
+<lastmod>2020-10-27T17:04:04-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>https://blog.rorre.xyz/categories.html</loc>
-<lastmod>2020-06-27T21:42:19-00:00</lastmod>
+<loc>http://localhost:8000/categories.html</loc>
+<lastmod>2020-10-27T17:04:04-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>https://blog.rorre.xyz/authors.html</loc>
-<lastmod>2020-06-27T21:42:19-00:00</lastmod>
+<loc>http://localhost:8000/authors.html</loc>
+<lastmod>2020-10-27T17:04:04-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>https://blog.rorre.xyz/archives.html</loc>
-<lastmod>2020-06-27T21:42:19-00:00</lastmod>
+<loc>http://localhost:8000/archives.html</loc>
+<lastmod>2020-10-27T17:04:04-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>https://blog.rorre.xyz/posts/bn-report-july/</loc>
+<loc>http://localhost:8000/posts/myschool-rant/</loc>
+<lastmod>2020-10-27T09:30:00+07:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>http://localhost:8000/posts/bn-report-july/</loc>
 <lastmod>2020-06-27T20:26:00+07:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>https://blog.rorre.xyz/posts/why-requests-site/</loc>
+<loc>http://localhost:8000/posts/why-requests-site/</loc>
 <lastmod>2020-05-22T11:45:00+07:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>https://blog.rorre.xyz/category/osu.html</loc>
+<loc>http://localhost:8000/category/osu.html</loc>
 <lastmod>2020-06-27T20:26:00+07:07</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>https://blog.rorre.xyz/tag/osu.html</loc>
+<loc>http://localhost:8000/category/technology.html</loc>
+<lastmod>2020-10-27T09:30:00+07:07</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>http://localhost:8000/tag/school.html</loc>
+<lastmod>2020-10-27T09:30:00+07:07</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>http://localhost:8000/tag/online.html</loc>
+<lastmod>2020-10-27T09:30:00+07:07</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>http://localhost:8000/tag/tech.html</loc>
+<lastmod>2020-10-27T09:30:00+07:07</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>http://localhost:8000/tag/osu.html</loc>
 <lastmod>2020-06-27T20:26:00+07:07</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>https://blog.rorre.xyz/tag/bn.html</loc>
+<loc>http://localhost:8000/tag/bn.html</loc>
 <lastmod>2020-06-27T20:26:00+07:07</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>https://blog.rorre.xyz/tag/mapping.html</loc>
+<loc>http://localhost:8000/tag/mapping.html</loc>
 <lastmod>2020-06-27T20:26:00+07:07</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>https://blog.rorre.xyz/tag/modding.html</loc>
+<loc>http://localhost:8000/tag/modding.html</loc>
 <lastmod>2020-06-27T20:26:00+07:07</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>https://blog.rorre.xyz/author/rendy-arya-kemal.html</loc>
-<lastmod>2020-06-27T20:26:00+07:07</lastmod>
+<loc>http://localhost:8000/author/rendy-arya-kemal.html</loc>
+<lastmod>2020-10-27T09:30:00+07:07</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>

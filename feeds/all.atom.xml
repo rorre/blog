@@ -1,5 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Ren's Blog</title><link href="https://blog.rorre.xyz/" rel="alternate"></link><link href="https://blog.rorre.xyz/feeds/all.atom.xml" rel="self"></link><id>https://blog.rorre.xyz/</id><updated>2020-06-27T20:26:00+07:00</updated><subtitle>osu! Beatmap Nominator</subtitle><entry><title>BN Report: July</title><link href="https://blog.rorre.xyz/posts/bn-report-july/" rel="alternate"></link><published>2020-06-27T20:26:00+07:00</published><updated>2020-06-27T20:26:00+07:00</updated><author><name>Rendy Arya Kemal</name></author><id>tag:blog.rorre.xyz,2020-06-27:/posts/bn-report-july/</id><summary type="html">&lt;p&gt;Upon the creation of this blog, I always wonder as to what I will put here, code updates? life updates? or...something else? Lots of ideas comes up on my mind, but I decided to do something that is a bit related to life updates... but for my life as …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Upon the creation of this blog, I always wonder as to what I will put here, code updates? life updates? or...something else? Lots of ideas comes up on my mind, but I decided to do something that is a bit related to life updates... but for my life as a Beatmap Nominator. Let's call it...BN Report!&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Ren's Blog</title><link href="http://localhost:8000/" rel="alternate"></link><link href="http://localhost:8000%5Cfeeds/all.atom.xml" rel="self"></link><id>http://localhost:8000/</id><updated>2020-10-27T09:30:00+07:00</updated><subtitle>osu! Beatmap Nominator</subtitle><entry><title>How to NOT make an online schooling platform</title><link href="http://localhost:8000%5Cposts/myschool-rant/" rel="alternate"></link><published>2020-10-27T09:30:00+07:00</published><updated>2020-10-27T09:30:00+07:00</updated><author><name>Rendy Arya Kemal</name></author><id>tag:localhost,2020-10-27:/myschool-rant/</id><summary type="html">&lt;p&gt;As the pandemic starts, many school has yet to decide which schooling platform that suits them the best. An online platform allows them to monitor students and do usual school task in one place. They are neat, but they are prone to mistake. In this post, we are going to …&lt;/p&gt;</summary><content type="html">&lt;p&gt;As the pandemic starts, many school has yet to decide which schooling platform that suits them the best. An online platform allows them to monitor students and do usual school task in one place. They are neat, but they are prone to mistake. In this post, we are going to look over at mySchool, a platform that my school decides to go with.&lt;/p&gt;
+&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;On July 19th, we were introduced by this platform, called "mySchool". When we open up the url, we are greeted with this look:&lt;/p&gt;
+&lt;div class="ui segment"&gt;
+    &lt;img class="ui centered fluid image" src="/static/post/myschool-rant/index.png"&gt;
+&lt;/div&gt;
+
+&lt;p&gt;May not be the best looking site, but that's alright. Here, we were asked to install the application that is available there. Of course, there is something off even just by glancing to it:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;There is an Android application for this, but what about iOS?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;And to no surprise, their answer was "There is no iOS application, feel free to use the web version of it, though." Which is totally fine, so far there doesn't seem to be nothing really weird going on.&lt;/p&gt;
+&lt;h1&gt;The Platform&lt;/h1&gt;
+&lt;h2&gt;Web Version&lt;/h2&gt;
+&lt;p&gt;Upon logging in, you're greeted with a nice fancy admin styled page.&lt;/p&gt;
+&lt;div class="ui segment"&gt;
+    &lt;img class="ui centered fluid image" src="/static/post/myschool-rant/web.png"&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Right off the bat, there is already something odd. &lt;strong&gt;The password is shown in plain text.&lt;/strong&gt; In general, you do &lt;strong&gt;not&lt;/strong&gt; want your password saved in plain text, let alone showing it right in the face! This already shows us how questionable the design choice of their backend. Though, I should give them some kudos on making the interface decent.&lt;/p&gt;
+&lt;h2&gt;Android Version&lt;/h2&gt;
+&lt;div class="ui segment"&gt;
+    &lt;img class="ui centered fluid image" src="/static/post/myschool-rant/mobile.png"&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The mobile UI looks alright, it looks simple and straightforward. There is nothing to comment here.&lt;/p&gt;
+&lt;p&gt;However, if you didn't notice it already, there are some extra menus. They are &lt;code&gt;Ujian (Exams)&lt;/code&gt;, &lt;code&gt;Raport (Report Card)&lt;/code&gt;, &lt;code&gt;Pembayaran (Billing)&lt;/code&gt;. We do not need to care about anything but the Exams page, as the rest of it are unused for my school's case.&lt;/p&gt;
+&lt;h1&gt;Exams&lt;/h1&gt;
+&lt;h2&gt;Access to Page&lt;/h2&gt;
+&lt;p&gt;Now, you may be wondering, why is the exams page only available for Android users? What about students that don't have an Android device? From here we can guess many things, perhaps:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;they have an anti-cheat system in place for the application;&lt;/li&gt;
+&lt;li&gt;they don't want their students to do it in PC, as it is easier to cheat by opening a new tab;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These guesses are valid, but...&lt;/p&gt;
+&lt;h3&gt;There is no anti-cheat system.&lt;/h3&gt;
+&lt;p&gt;The application itself is nothing but a WebView, pointing to the domain of the platform. Don't believe me? Look at it yourself!&lt;/p&gt;
+&lt;div class="ui segment"&gt;
+    &lt;img class="ui centered fluid image" src="/static/post/myschool-rant/decompiled.png"&gt;
+&lt;/div&gt;
+
+&lt;p&gt;As you can see, it is essentially a WebView, and nothing else.&lt;/p&gt;
+&lt;h3&gt;You can still open the page in web version.&lt;/h3&gt;
+&lt;p&gt;Yes, you can still open it. It is just poorly hidden. One could go to &lt;code&gt;Materi -&amp;gt; Video&lt;/code&gt; and the option to go to Exams page should pop up.&lt;/p&gt;
+&lt;div class="ui segment"&gt;
+    &lt;img class="ui centered fluid image" src="/static/post/myschool-rant/hidden.png"&gt;
+&lt;/div&gt;
+
+&lt;p&gt;So, what is the point of all of this? The world may never know.&lt;/p&gt;
+&lt;h2&gt;Introduction and Flaws&lt;/h2&gt;
+&lt;p&gt;Upon opening the exams listing page, you are greeted with the list of exams being assigned. Standard stuff. Then, when you load up the exam page, you will be shown with this page:&lt;/p&gt;
+&lt;div class="ui segment"&gt;
+    &lt;img class="ui centered fluid image" src="/static/post/myschool-rant/exams.png"&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Nothing too fancy, but let's go through the flaws:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;You are supposed to click on &lt;code&gt;Save Answer&lt;/code&gt; for every single question.&lt;br&gt;
+While this may be fine, it is rather annoying to click on it for every single one, not to mention the time to wait for the server to respond. In this era, it is possible to send all of this in the background, the platform already have jQuery, then make use of it. Use the &lt;code&gt;onChange&lt;/code&gt; event. This way you don't require everyone to click on it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The &lt;code&gt;Save Answer&lt;/code&gt; button is rather misleading.&lt;br&gt;
+One would expect the button is to save the answer, so that it will not be erased upon refresh or the likes. However, the reality is that the button does &lt;code&gt;Save and Lock Answer&lt;/code&gt; instead. This surely gives more stress to the students as they should not push the button until they're 100% certain with their answer.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Performance is horrendous.&lt;br&gt;
+The performance of the site makes it totally unusable, every time you press the &lt;code&gt;Save Answer&lt;/code&gt; button, it sends a POST request to the server, and it takes  &lt;strong&gt;1.2 minutes&lt;/strong&gt; in average for the server to respond back! On top of it, it will also redirect you to the same page and makes your browser send a GET request of the page, that takes &lt;strong&gt;40 seconds&lt;/strong&gt; in average for the server to deliver. That would basically take &lt;strong&gt;almost 2 minutes&lt;/strong&gt; for everything to come back usable again. It is unbelieveable on how unresponsive it is to wait.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Not only that, you're also often greeted with a blank/timeout page that is actually just the server sending a 500 Internal Server Error HTTP response.&lt;/p&gt;
+&lt;div class="ui segment"&gt;
+    &lt;img class="ui centered fluid image" src="/static/post/myschool-rant/timeout.png"&gt;
+&lt;/div&gt;
+
+&lt;div class="ui segment"&gt;
+    &lt;img class="ui centered fluid image" src="/static/post/myschool-rant/500.png"&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Here's a video of me answering one question:&lt;/p&gt;
+&lt;div class="ui segment"&gt;
+    &lt;video width="640" height="480" controls&gt;
+        &lt;source src="/static/post/myschool-rant/pain.mp4" type="video/mp4"&gt;
+    &lt;/video&gt;
+&lt;/div&gt;
+
+&lt;h1&gt;Remarks&lt;/h1&gt;
+&lt;p&gt;Overall, I am rather annoyed with all of the flaws, especially one specific subject often uses it. It really is a pain in the ass for me to navigate through it. There are actually many more flaws that I could mention in this post, but it will cause some sort of world destruction if I say it publicly.&lt;/p&gt;
+&lt;p&gt;There are many ways to improve it, here are some:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Make use of jQuery's &lt;code&gt;onChange&lt;/code&gt; to &lt;em&gt;ACTUALLY&lt;/em&gt; save answers.&lt;/li&gt;
+&lt;li&gt;Fix the button, or even remove it once above is applied.&lt;/li&gt;
+&lt;li&gt;Optimize database calls.&lt;/li&gt;
+&lt;li&gt;Get a better server, seriously.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That's it, I guess. Have a nice day.&lt;/p&gt;</content><category term="Technology"></category><category term="school"></category><category term="online"></category><category term="tech"></category></entry><entry><title>BN Report: July</title><link href="http://localhost:8000%5Cposts/bn-report-july/" rel="alternate"></link><published>2020-06-27T20:26:00+07:00</published><updated>2020-06-27T20:26:00+07:00</updated><author><name>Rendy Arya Kemal</name></author><id>tag:localhost,2020-06-27:/bn-report-july/</id><summary type="html">&lt;p&gt;Upon the creation of this blog, I always wonder as to what I will put here, code updates? life updates? or...something else? Lots of ideas comes up on my mind, but I decided to do something that is a bit related to life updates... but for my life as …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Upon the creation of this blog, I always wonder as to what I will put here, code updates? life updates? or...something else? Lots of ideas comes up on my mind, but I decided to do something that is a bit related to life updates... but for my life as a Beatmap Nominator. Let's call it...BN Report!&lt;/p&gt;
 &lt;h3&gt;What? BN Report?&lt;/h3&gt;
 &lt;p&gt;Yes! A monthly BN activity report blog for updates from the stuffs I do as a Beatmap Nominator! But I would like to try to showcase some cool maps that I have nominated too, and pour my thoughts into it, similar to how osu!'s spotlight works. I would like to let everyone knows about what I've been doing in a month, and also share my thoughts on things happening.&lt;br&gt;
 Aside from that, updates about my requests site will also be listed here!&lt;/p&gt;
@@ -54,7 +149,7 @@ Added to that, we see two new names in the ranked section, with &lt;code&gt;smh&
     &lt;img class="ui centered fluid image" src="https://assets.ppy.sh/beatmaps/995205/covers/cover@2x.jpg?1590634071"&gt;
 &lt;/div&gt;
 &lt;a href="https://osu.ppy.sh/users/53378"&gt;ktgster&lt;/a&gt; has always been quite a unique mapper, trying to do new things in each of their own map, and this is no exception! We see low AR diffs that is quite unique for current era to get ranked, with the top diff being AR0, making everything looks like it's slapped on your monitor. This makes quite a challenging experience, especially for those of you who aren't familiar with low AR to read the map. If you're quite new to reading low AR, you could use this map as your training point, as the map itself is actually really simple and very straightforward to read.&lt;/p&gt;
-&lt;p&gt;That concludes my first post for this monthly blog post! I will try do this consistently for every last week of the month. But for now, I'll see ya guys in the next post!&lt;/p&gt;</content><category term="osu!"></category><category term="osu"></category><category term="bn"></category><category term="mapping"></category><category term="modding"></category></entry><entry><title>Changing How Requests Works</title><link href="https://blog.rorre.xyz/posts/why-requests-site/" rel="alternate"></link><published>2020-05-22T11:45:00+07:00</published><updated>2020-05-22T11:45:00+07:00</updated><author><name>Rendy Arya Kemal</name></author><id>tag:blog.rorre.xyz,2020-05-22:/posts/why-requests-site/</id><summary type="html">&lt;p&gt;During mapping, there are just times where you want to rank your map. You may even be actually actively ranking a map right now. However, the current process requires 2 BNs to rank a map. This is where it could get tricky and/or frustrating. Requesting BNs has (and maybe …&lt;/p&gt;</summary><content type="html">&lt;p&gt;During mapping, there are just times where you want to rank your map. You may even be actually actively ranking a map right now. However, the current process requires 2 BNs to rank a map. This is where it could get tricky and/or frustrating. Requesting BNs has (and maybe always will be,) something that frustrates mappers for many reasons; whether BNs are simply closed or just ignore you.&lt;/p&gt;
+&lt;p&gt;That concludes my first post for this monthly blog post! I will try do this consistently for every last week of the month. But for now, I'll see ya guys in the next post!&lt;/p&gt;</content><category term="osu!"></category><category term="osu"></category><category term="bn"></category><category term="mapping"></category><category term="modding"></category></entry><entry><title>Changing How Requests Works</title><link href="http://localhost:8000%5Cposts/why-requests-site/" rel="alternate"></link><published>2020-05-22T11:45:00+07:00</published><updated>2020-05-22T11:45:00+07:00</updated><author><name>Rendy Arya Kemal</name></author><id>tag:localhost,2020-05-22:/why-requests-site/</id><summary type="html">&lt;p&gt;During mapping, there are just times where you want to rank your map. You may even be actually actively ranking a map right now. However, the current process requires 2 BNs to rank a map. This is where it could get tricky and/or frustrating. Requesting BNs has (and maybe …&lt;/p&gt;</summary><content type="html">&lt;p&gt;During mapping, there are just times where you want to rank your map. You may even be actually actively ranking a map right now. However, the current process requires 2 BNs to rank a map. This is where it could get tricky and/or frustrating. Requesting BNs has (and maybe always will be,) something that frustrates mappers for many reasons; whether BNs are simply closed or just ignore you.&lt;/p&gt;
 &lt;div class="ui icon warning message"&gt;
   &lt;i class="exclamation triangle icon"&gt;&lt;/i&gt;
   &lt;div class="content"&gt;
