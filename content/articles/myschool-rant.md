@@ -106,7 +106,7 @@ Not only that, you're also often greeted with a blank/timeout page that is actua
 Here's a video of me answering one question:
 
 <div class="ui segment">
-    <video width="640" height="480" controls>
+    <video controls>
         <source src="/static/post/myschool-rant/pain.mp4" type="video/mp4">
     </video>
 </div>
